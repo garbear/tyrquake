@@ -175,6 +175,7 @@ OBJECTS    = NQ/cl_input.o \
 
 ifeq ($(platform), win)
 OBJECTS += NQ/net_win.o \
+				 NQ/net_dgrm.o \
 				 NQ/net_wins.o
 else
 OBJECTS += NQ/net_none.o
